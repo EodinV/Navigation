@@ -9,3 +9,5 @@ Sounder:  not yet determined
 
 rudder angle: sensored servo? or potentiometer.
 speed: GPS for now
+
+MC faking RC signals to navigate using GPS and Compass
