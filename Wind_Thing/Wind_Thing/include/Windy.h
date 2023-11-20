@@ -11,8 +11,23 @@
 #define NW 7
 #define BAROA SDA
 #define BAROL SCL
-#define HYGRO 9
-#define TEMP 10
+#define DHTPIN 9
+#define DHTTYPE DHT11
+#define LEDN 10
+#define LEDNE 11
+#define LEDE 12
+#define LEDSE 13
+#define LEDS 14
+#define LEDSW 15
+#define LEDW 16
+#define LEDNW 17
+int tmp = 0;
+int bar = 0;
+int hyg = 0;
+int chill = 0;
+DHT dht(DHTPIN,DHTTYPE);
+
+
 
 int corr = 0;
 
@@ -64,6 +79,11 @@ int windchill()
 int direction()
 {
 
+}
+
+void LEDdrive(x)
+{
+  
 }
 
 /**
